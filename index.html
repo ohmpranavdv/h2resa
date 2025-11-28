@@ -1,0 +1,709 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>H2RESA 2026 </title>
+</head>
+<body>
+
+	
+
+<nav>
+    <div class="logo">
+      <img src="images/psgtechlogo.png" alt="logo">
+    </div>
+
+    <!-- Hamburger menu for Mobile -->
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <ul class="navlinks" id="navlinks">
+      <div class="close-btn" id="close-btn">✕</div>
+      <li><a href="#">Home</a></li>
+      <li>
+        <a href="#">About</a>
+        <ul class="dropdown">
+          <li><a href="#aboutpsgct">College</a></li>
+          <li><a href="#aboutauto">Department</a></li>
+          <li><a href="#abouttheconf">Conference</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">For Authors</a>
+        <ul class="dropdown">
+          <li><a href="brochures/Conference_Brochure.pdf" target="_blank"> Brochure</a></li>
+          <li><a href="brochures/Agenda.pdf" target="_blank">Event Agenda</a></li>
+          <li><a href="#callcontainer">Submission</a></li>
+          <li><a href="#dates-container">Important Dates</a></li>
+          <li><a href="#tabsection">Payment Details</a></li>
+        </ul>
+      </li>
+      <li><a href="#fotr">Our Sponsors</a></li>
+      <li><a href="#fotr">Contact us</a></li>
+      <li><a href="registration.html">Register</a></li>
+    </ul>
+  </nav>
+<div class="updates-bar">
+  	<div class="updates-text">
+    <!--✦ Pre-Conference Workshop on 05th MAR 2026 -
+    <a href="https://drive.google.com/" target="_blank" style="text-decoration: underline; color: inherit;">
+        Click here to view!-->
+    </a> 
+    The Pre-conference session on 05th March, 2026.
+</div>
+</div>
+
+  <script>
+    const hamburger = document.getElementById("hamburger");
+    const navlinks = document.getElementById("navlinks");
+    const closeBtn = document.getElementById("close-btn");
+
+    hamburger.addEventListener("click", () => {
+      navlinks.classList.add("active");
+    });
+
+    closeBtn.addEventListener("click", () => {
+      navlinks.classList.remove("active");
+      window.location.href = "#"; // optional: direct to home
+    });
+  </script>
+	
+
+
+	
+<div class="backgroundmain">
+    <img class="bg-image" alt="PSG College of Technology Building" src="images/plainbg.jpg" />
+
+    <div class="overlay">
+         <div class="datemain">Departments of Automobile Engineering and Mechanical Engineering <br>Presents</div>
+        <div class="subtitle">GLOBAL CONFERENCE ON<br>HYDROGEN AND RENEWABLE ENERGY<br>FOR SUSTAINABLE TRANSPORTATION AND INDUSTRIAL APPLICATIONS</div>
+        <div class="datemain">06<sup>th</sup> & 07 <sup>th</sup>  MARCH, 2026 </div>
+
+<div class="logo-bar">
+  <div class="logo-heading"></div>
+  <div class="logo-row">
+    <img class="partner-logo" src="images/PSG_CARE.png" alt="logo2" />
+    <img class="partner-logo" src="images/IWPA.png" alt="logo4" />
+    <img class="partner-logo" src="images/PSG_STEP.png" alt="logo4" />
+    <img class="partner-logo" src="images/ISSE.png" alt="logo5" />
+  </div>
+</div>
+
+
+<div class="conf-slider-wrap">
+  <div class="datemain">Previous Confernces</div>
+
+  <div class="conf-slider-track">
+
+    <!-- 6 original images -->
+    <div class="conf-slide"><img src="images/ph.png"></div>
+    <div class="conf-slide"><img src="images/ph.png"></div>
+    <div class="conf-slide"><img src="images/ph.png"></div>
+    <div class="conf-slide"><img src="images/ph.png"></div>
+    <div class="conf-slide"><img src="images/ph.png"></div>
+    <div class="conf-slide"><img src="images/ph.png"></div>
+
+    <!-- duplicate 6 for smooth continuous loop -->
+    <div class="conf-slide"><img src="images/ph.png"></div>
+    <div class="conf-slide"><img src="images/ph.png"></div>
+    <div class="conf-slide"><img src="images/ph.png"></div>
+    <div class="conf-slide"><img src="images/ph.png"></div>
+    <div class="conf-slide"><img src="images/ph.png"></div>
+    <div class="conf-slide"><img src="images/ph.png"></div>
+
+  </div>
+</div>
+</div>
+
+
+   <!-- Springer logo and text here 
+         <div class="springer">
+            <img class="springer-logo" alt="springer logo" src="images/springerlogo.png" />
+           The conference proceedings will be published in Scopus indexed Springer book series.
+        </div> -->
+
+    </div>
+</div>
+
+<!--
+<div class=sponsec id=spons>
+  <div class="sponsors-section">
+  
+   <div class="title-wrapper">
+  <h3 class="sponsor-title shimmer-text">Platinum Sponsor</h3>
+  <div class="star-shimmer">✦</div>
+  
+</div>
+
+
+    <div class="sponsor-card1 glass">
+      <a href="https://www.hcltech.com" target="_blank">
+  <img src="images/hclnewlogo.jpg" alt="HCLTech Logo" width="250" height="95">
+</a>
+    </div>
+    
+    <div class="title-wrapper">
+  <h3 class="sponsor-title shimmer-text">Gold Sponsor</h3>
+  <div class="star-shimmer2">✦</div>
+</div>
+<div class="sponsor-card1 glass">
+      <a href="https://www.propelind.com" target="_blank">
+  <img src="images/propel.jpg" alt="propel Logo" width="250" height="95">
+</a>
+    </div>
+
+    <h3 class="sponsor-title">Co-Sponsors</h3>
+    <div class="co-sponsors">
+    
+    
+      
+      <div class="sponsor-card glass">
+      <a href="https://www.lgb.co.in" target="_blank">
+        <img src="images/spons3.jpg" alt="LgB Logo" width="190" height="80" >
+        </a>
+      </div>
+      <div class="sponsor-card glass">
+      <a href="https://www.rolonpremium.co.in" target="_blank">
+        <img src="images/rolon.jpg" alt="rolon Logo" width="190" height="80" >
+        </a>
+      </div>
+      <div class="sponsor-card glass">
+      <a href="https://www.rolonpremium.co.in" target="_blank">
+        <img src="images/skyxspons.jpg" alt="skyx Logo" width="190" height="80" >
+        </a>
+      </div>
+       <div class="sponsor-card glass">
+        <a href="https://www.ancitconsulting.com" target="_blank">
+        <img src="images/spons1.jpg" alt="ANCIT Logo" width="190" height="80" >
+        </a>
+      </div>
+      <div class="sponsor-card glass">
+      <a href="https://www.rolonpremium.co.in" target="_blank">
+        <img src="images/aishwaryam.jpg" alt="afs Logo" width="190" height="80" >
+        </a>
+      </div>
+      <div class="sponsor-card glass">
+      <a href="https://www.rolonpremium.co.in" target="_blank">
+        <img src="images/electraev.jpg" alt="electra Logo" width="190" height="80" >
+        </a>
+      </div>
+      <div class="sponsor-card glass">
+      <a href="https://www.rolonpremium.co.in" target="_blank">
+        <img src="images/eds.jpg" alt="eds Logo" width="190" height="80" >
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+-->
+
+    <div class="aboutpsgct" id="aboutpsgct">
+        <div class="heading">About PSCGT</div>
+        <div class="para">PSG College of Technology (PSG CT), founded in 1951 by PSG & Sons’ Charities, stands as an eminent institution in the field of education. It is an ISO 9001-2015 certified autonomous institution affiliated to Anna University, Chennai. The college offers a diverse array of academic programs with 21 undergraduate and 24 postgraduate programs covering Engineering and Technology, Computer Applications, Management Sciences, Basic and Applied Sciences. Distinguished by its commitment to innovation and research, PSG CT houses several cutting-edge Centers of Excellence funded by MHRD, DST and other agencies. TIFAC Core, Advanced Machine Tool Research Centre, Virtual Instrumentation Centre,  Centre of Excellence for Industrial and Home Textiles, Centre for Nano-technology, Centre for Robotics, Centre for Excellence in Artificial Intelligence and Software, Danfoss Centre of Excellence in Climate and Energy, and Centre of Excellence for Welding Engineering and Technology are a few to mention. In addition to its academic pursuits, PSG CT has a strong industrial presence. The PSG Industrial Institute operates  manufacturing units for castings, machine tools, pumps, motors and technical textiles. PSG CT's collaboration with industry, research institutes, alumni, and entrepreneurs underscores its commitment to holistic education, innovation, and industry relevance.</div>
+        </div>
+    </div>
+
+
+    <a href="#" class="arrow">&#8593;</a>
+
+
+
+    <div class="aboutauto" id="aboutauto">
+        <div class="heading">About Department of Automobile Engineering</div>
+        <div class="para">
+            <p>The department was established with an undergraduate programme in Automobile engineering in 1999.</p>
+        
+            <p>The faculty of the department has published 200+ technical papers in various National and International conferences and journals from 1999. The department is well equipped with laboratories like PACE Lab, Vehicle Servicing Lab, PSG Motorsports Lab, Electric Hybrid Vehicle Lab, Engine Trouble Shooting Lab, Vehicle Performance and Characteristic Lab, Two & Three Wheeler Lab, Automotive Steering System Lab, Automotive Simulation Lab, Automotive Electronics Lab, CAD & CAE Lab, Fuel Cell Lab, Centre for Automotive Research and Testing Lab & Centre of Excellence - Industrial & Home Textiles lab. The software packages available in the department include Pro-E, Solidworks, Solid edge, NX, Siemens, CATIA, Unigraphics, ANSYS, ADAMS, LSDYNA for the faculty and aspiring students to pursue their research and project work. The upgraded facilities in the department include sensors, CVT, Automatic Transmission, etc. The department offers consultancy services in Chassis Design, Engine Design, FEA analysis, and CFD simulations. In the near future, the department aims to start Fuel Testing Laboratory, Advanced Automotive Electronics Laboratory, and a Research center for Alternate Fuels.</p>
+            <p>The department maintains a close liaison with a number of Universities and Industries in India and abroad through faculty research and collaborative projects.</p>
+        </div>
+    </div>
+
+
+
+    <div class="aboutauto" id="aboutauto">
+        <div class="heading">About Department of Mechanical Engineering</div>
+        <div class="para">
+            <p>The department was established in 1951 as one of the founding departments of PSG College of Technology.</p>
+            
+            <p>The department has strong academic and research contributions and maintains collaborations with industries and universities in India and abroad. It has established several specialized laboratories to support teaching, research, and consultancy activities. These include the Festo-PSG Pneumatic Automation Centre, Engineering Design Centre, PSG-Rane Centre for Manufacturing Systems, Machine Tool Research Centre, Wind Tunnel Centre, and the Industry 4.0 Laboratory. Students gain hands-on exposure to modern technologies used in the industry. The Department of Mechanical Engineering offers a wide range of programmes that cater to undergraduate, postgraduate, and doctoral studies. At the UG level, it provides the B.E. Mechanical Engineering and the unique five-year Mechanical Sandwich programme. The postgraduate programmes include M.E. Engineering Design, M.E. Industrial Engineering, M.E. Computer Integrated Manufacturing, M.E. Energy Engineering, and M.E. Lean Manufacturing, each designed to develop advanced skills in design, manufacturing, automation, operations, and energy systems. The department also offers a Ph.D. in Mechanical Engineering, enabling scholars to pursue research in emerging and industry-relevant domains.</p>    
+        </div>
+    </div>
+
+
+
+
+    <div class="abouttheconf" id="abouttheconf">
+        <div class="heading">About the Conference</div> 
+        <div class="para">India, the world's fourth largest economy and the third largest carbon emitter with annual emissions of
+approximately 2.9 Giga tonnes of CO2 equivalent, maintains a low per capita emission of just 1.8 tons,
+significantly below the global average. Despite this, India has demonstrated strong environmental leadership by
+committing to achieve Net Zero emissions by 2070. The Government of India has launched several proactive
+initiatives targeting emission-intensive sectors like transportation, industries, and power which collectively
+contribute over 70% of total emissions.<br>
+This conference is timely and aligns with the national mission to promote green hydrogen as a clean and
+sustainable alternative fuel for hard-to-abate sectors such as transport, steel, cement, foundry, and power
+generation. Recognizing the strategic importance of hydrogen, the Government has allocated 19,744 crores
+under the National Green Hydrogen Mission for the development of hydrogen production, storage, and
+distribution infrastructure.
+<br><br>
+India's renewable energy potential of 1164 GW in wind and 748 GW in solar, offers a robust foundation for green
+hydrogen production, further advancing the nation's energy independence and sustainability goals. The
+conference will also explore the role of battery electric vehicles in reducing emissions, with a focus on challenges
+such as battery materials, lifecycle, fast-charging infrastructure, and end-of-life recycling.
+By addressing these critical technological, infrastructural, and policy challenges, this conference aims to foster
+collaboration and innovation that will accelerate India's transition to a low-carbon future and support the nation
+in achieving its Net Zero vision.
+        </div>
+    </div> 
+
+
+
+    <div class="dates-container" id="dates-container">
+        <div class="titledates">IMPORTANT DATES</div>
+        
+        <div class="dates">
+            <div class="date-box">
+                <img src="images/abstract.png" alt="Abstract Submission Icon">
+                <div class="label">Last date for Extended Abstract Submission</div>
+                <div class="date"> DECEMBER 15, 2025  </div>
+            </div>
+            <div class="date-box">
+                <img src="images/abstract.png" alt="Abstract Submission Icon">
+                <div class="label">Last date for Full Manuscript Submission</div>
+                <div class="date"> JANUARY 05, 2026  </div>
+            </div>
+            <div class="date-box">
+                <img src="images/notification.png" alt="Notification of Acceptance Icon">
+                <div class="label">Notification of acceptance of paper</div>
+                <div class="date"> JANUARY 25, 2026</div>
+            </div>
+            <div class="date-box">
+                <img src="images/fullpaper.png" alt="Full Paper Submission Icon">
+                <div class="label">Camera Ready Paper Submission</div>
+                <div class="date">FEBRUARY 13, 2026</div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+<!-- Organising Committee container -->
+    <div class="container">
+	<div class="octitle">
+            ORGANIZING COMMITTEE
+        </div>
+
+    <!-- Top row: Chief Patron -->
+    <div class="chief1">
+        <div class="member1">
+            <img src="images/chief_patron.jpg" alt="Portrait of Shri. L. Gopalakrishnan">
+            <h3 class="title">Chief Patron</h3>
+            <p>Shri. L. Gopalakrishnan<br>Managing Trustee<br>PSG &amp; Sons' Charities</p>
+        </div>
+    </div>
+
+    <!-- Top row: Patron and Convener -->
+    <div class="others">
+        <div class="member">
+            <img src="images/Prakasan.jpg" alt="Portrait of Dr. K. Prakasan">
+            <h3 class="title">Patron</h3>
+            <p>Dr. K. Prakasan<br>Principal<br>PSG College of Technology</p>
+        </div>
+
+        <div class="member">
+            <img src="images/Rudramoorthy.jpg" alt="Portrait of Dr. R. Rudramoorthy">
+            <h3 class="title">Co-Patron</h3>
+            <p>Dr. R. Rudramoorthy<br>Director<br>PSGCARE</p>
+        </div>
+    </div>
+
+    <!-- Academic / Renewable Chairs -->
+    <div class="chairs">
+        <div class="member">
+            <img src="images/Kannan.jpg" alt="Portrait of Dr. K. Kannan">
+            <h3 class="title">Academic Chair</h3>
+            <p>Dr. K. Kannan<br>HoD — Mechanical<br>PSG College of Technology</p>
+        </div>
+
+        <div class="member">
+            <img src="images/Kasthuriran.png" alt="Portrait of Dr. Kasthurirangian">
+            <h3 class="title">Renewable Energy Chair</h3>
+            <p>Dr. Kasthurirangian<br>Chairman<br>IWPA</p>
+        </div>
+    </div>
+
+    <!-- Conference Chairs -->
+    <div class="conference-chairs">
+        <h2>CONFERENCE CHAIRS</h2>
+
+        <div class="member">
+            <img src="images/Sankaran.png" alt="Portrait of Dr. S. Sankaran">
+            <h3 class="title">Dr. S. Sankaran</h3>
+            <p>Dy Director<br>SHAR - ISRO</p>
+        </div>
+
+        <div class="member">
+            <img src="images/Subbu.png" alt="Portrait of Dr. G. Subburaman">
+            <h3 class="title">Dr. G. Subburaman</h3>
+            <p>Institute Fellow<br>GTI, USA</p>
+        </div>
+
+        <div class="member">
+            <img src="images/AnandSankaran.jpg" alt="Portrait of V. Anand Sankaran">
+            <h3 class="title">V. Anand Sankaran</h3>
+            <p>Director (Retd.)<br>Ford Motor Company, USA</p>
+        </div>
+
+        <div class="member">
+            <img src="images/PSG CT Mech_Hod Pic.JPG" alt="Portrait of Dr. P. R. Thyla">
+            <h3 class="title">Dr. P. R. Thyla</h3>
+            <p>Professor<br>Dept. of Mechanical Engg., <br>PSG College of Technology</p>
+        </div>
+
+        <div class="member">
+            <img src="images/Prabu.png" alt="Portrait of Dr. T. Prabu">
+            <h3 class="title">Dr. T. Prabu</h3>
+            <p>Vice President<br>ISSE Coimbatore Chapter</p>
+        </div>
+
+        <div class="member">
+            <img src="images/Manikandan.jpg" alt="Portrait of Dr. P. Manikandan">
+            <h3 class="title">Dr. P. Manikandan</h3>
+            <p>Associate Professor<br>Østfold University College, Norway</p>
+        </div>
+    </div>
+
+    <!-- Organizing Secretaries -->
+    <div class="organizing-secretaries">
+        <h2>ORGANIZING SECRETARIES</h2>
+
+        <div class="member">
+            <img src="images/viswanathan.jpg" alt="Portrait of Dr. P. Viswanathan">
+            <h3 class="title">Dr. P. Viswanathan</h3>
+            <p>Associate Professor<br>Dept. of Mechanical Engg.</p>
+        </div>
+
+        <div class="member">
+            <img src="images/karthikeyan.jpeg" alt="Portrait of Dr. P. Karthikeyan">
+            <h3 class="title">Dr. P. Karthikeyan</h3>
+            <p>Professor<br>Dept. of Automobile Engg.</p>
+        </div>
+    </div>
+
+    <!-- Organizing Joint Secretaries -->
+    <div class="organizing-joint-secretaries">
+        <h2>ORGANIZING JOINT-SECRETARIES</h2>
+
+        <div class="member">
+            <img src="images/arunkumar.jpg" alt="Portrait of Dr. R. Arunkumar">
+            <h3 class="title">Dr. R. Arunkumar</h3>
+            <p>Assistant Professor<br>Dept. of Mechanical Engg.</p>
+        </div>
+
+        <div class="member">
+            <img src="images/MageshKannan.jpg" alt="Portrait of Dr. V. Magesh Kannan">
+            <h3 class="title">Dr. V. Magesh Kannan</h3>
+            <p>Assistant Professor<br>Dept. of Automobile Engg.</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!-- THEMATIC SESSIONS — updated to the 10 topics from the picture -->
+<div class="thematic" id="thematic">
+  <div class="thematiccontainer">
+    <div class="theader">
+      <h1>THEMATIC SESSIONS</h1>
+    </div>
+
+    <div class="grid">
+      <!-- 1 -->
+      <div class="card">
+        <img src="images/g1.png" alt="Energy & Decarbonisation">
+        <h2>1. Energy & Decarbonisation Goals and Key Challenges</h2>
+        <div class="toverlay" aria-hidden="true">
+          <h3>National goals & barriers</h3>
+          <p>India's energy demand, policy targets, cost of CO₂ abatement, incentives, affordability, adoption barriers and techno-economic challenges.</p>
+        </div>
+      </div>
+
+      <!-- 2 -->
+      <div class="card">
+        <img src="images/gtransport.jpg" alt="Green Transportation">
+        <h2>2. Green Transportation and Propulsion Technologies</h2>
+        <div class="toverlay" aria-hidden="true">
+          <h3>EVs, hybrids & hydrogen transport</h3>
+          <p>Electric & hybrid vehicles, long-haul applications, public transport solutions and hydrogen-powered water transport systems.</p>
+        </div>
+      </div>
+
+      <!-- 3 -->
+      <div class="card">
+        <img src="images/alt fuel source.jpg" alt="Energy Storage">
+        <h2>3. Energy Storage Systems and Technologies</h2>
+        <div class="toverlay" aria-hidden="true">
+          <h3>Batteries, flow & system challenges</h3>
+          <p>Fast charging, BESS, lithium/Na/metal-air chemistries, flow batteries, recycling, circular economy and supply-chain constraints.</p>
+        </div>
+      </div>
+
+      <!-- 4 -->
+      <div class="card">
+        <img src="images/tanks.png" alt="Hydrogen Production">
+        <h2>4. Hydrogen Production Technologies</h2>
+        <div class="toverlay" aria-hidden="true">
+          <h3>Green & blue hydrogen pathways</h3>
+          <p>Electrolysis (renewable-powered), biomass routes, solar/wind coupling, green ammonia, techno-economic assessment and enabling factors.</p>
+        </div>
+      </div>
+
+      <!-- 5 -->
+      <div class="card">
+        <img src="images/storage.png" alt="Hydrogen Storage">
+        <h2>5. Hydrogen Storage Systems</h2>
+        <div class="toverlay" aria-hidden="true">
+          <h3>Design, carriers & safety</h3>
+          <p>Modelling and design of storage, materials and sorbents, liquid/solid carriers, safety/handling and fundamentals of hydrogen physics & chemistry.</p>
+        </div>
+      </div>
+
+      <!-- 6 -->
+      <div class="card">
+        <img src="images/windmill.png" alt="Wind Energy">
+        <h2>6. Wind Energy Systems</h2>
+        <div class="toverlay" aria-hidden="true">
+          <h3>Resource to repowering</h3>
+          <p>Resource assessment, repowering, grid integration, AI predictive maintenance, wind-to-hydrogen conversion and blade materials/layout optimisation.</p>
+        </div>
+      </div>
+
+      <!-- 7 -->
+      <div class="card">
+        <img src="images/solar.png" alt="Solar Energy">
+        <h2>7. Solar Energy Systems</h2>
+        <div class="toverlay" aria-hidden="true">
+          <h3>PV performance & lifecycle</h3>
+          <p>Perovskite-silicon tandems, module degradation, soiling impacts, recycling & lifecycle management, and AI maintenance for solar farms.</p>
+        </div>
+      </div>
+
+      <!-- 8 -->
+      <div class="card">
+        <img src="images/infra.png" alt="Infrastructure & Distribution">
+        <h2>8. Infrastructure and Distribution</h2>
+        <div class="toverlay" aria-hidden="true">
+          <h3>Grids & hydrogen logistics</h3>
+          <p>Smart grids, decentralized power systems, hydrogen refuelling infrastructure, and transport & distribution network design.</p>
+        </div>
+      </div>
+
+      <!-- 9 -->
+      <div class="card">
+        <img src="images/h2ice.png" alt="Hydrogen Combustion">
+        <h2>9. Innovation in Hydrogen Combustion</h2>
+        <div class="toverlay" aria-hidden="true">
+          <h3>Combustion systems & LCA</h3>
+          <p>Advanced hydrogen combustion systems, lifecycle assessment, and hydrogen-fuelled heavy-duty trucks and power generation solutions.</p>
+        </div>
+      </div>
+
+      <!-- 10 -->
+      <div class="card">
+        <img src="images/013.jpg" alt="Industrial Applications">
+        <h2>10. Industrial and Other Applications</h2>
+        <div class="toverlay" aria-hidden="true">
+          <h3>High-temperature & aerospace uses</h3>
+          <p>Hydrogen for high-temperature industrial processes, smart-city integration, system sizing, aerospace applications and fuel-cell deployment strategies.</p>
+        </div>
+      </div>
+
+    </div> <!-- /.grid -->
+  </div> <!-- /.thematiccontainer -->
+</div> <!-- /.thematic -->
+
+
+
+
+
+  <div class="callcontainer" id="callcontainer">
+    <div class="callhead">
+        CALL FOR PAPERS
+    </div>
+    
+        <div class="content">
+          
+            <h2>Author Guidelines</h2>
+            <p>H2RESA2026 invites full-length original research contributions from engineering professionals from industries, R&D organizations, academic institutions, government departments, and research scholars from across the world.</p>
+            <ul>
+                <li>The conference proceedings will be published in popular sources (TBA).</li>
+				<li>Full-length original research contributions and review articles as per the given paper format shall be submitted.</li>
+                <li>The manuscript should not have been published in any journals/magazines or conference proceedings and must not be under review in any of them.</li>
+                <li>The manuscript should contain the name of the corresponding author with an email ID and the affiliation of all authors.</li>
+                <li>H2RESA2026 will not publish any paper that has not been registered.</li>
+                <li>If a complaint regarding the authorship of a paper is received and found to be valid, the paper will be immediately withdrawn from publication.</li>
+                <li>Submit the manuscripts through the "Register" button.</li>
+                <li>Submitted research work must be original in content and free from plagiarism.</li>
+                <li>Refer to the brochure for more information.</li>
+              </ul>
+            <h2>Acknowledgement</h2>
+            <p>The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.</p>
+        </div>
+    </div>
+
+
+
+
+
+    
+<div class="tabsection" id="tabsection">
+    <div class="containertab">
+        <h1>Registration fees</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Category</th>
+                    <th>Paid on or before <br>January 30, 2026</th>
+                    <th>Paid after <br>January 30, 2026</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Industry Personnels</td>
+                    <td>Rs.8000</td>
+                    <td>Rs.10000</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Academic Professionals</td>
+                    <td>Rs.6,500</td>
+                    <td>Rs.7,500</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>IWPA/ISSE Members</td>
+                    <td>Rs.5000</td>
+                    <td>Rs.6000</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Students/Reseach scholars<br>(2 days)</td>
+                    <td>Rs.4000</td>
+                    <td>Rs.5000</td>
+                </tr>
+                    <td>5</td>
+                    <td>Students/Reseach scholars<br>(1 day - 07 March, 2026)</td>
+                    <td>Rs.2,500</td>
+                    <td>Rs.3,500</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Foreign Delegates</td>
+                    <td>US$ 150</td>
+                    <td>US$ 170</td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="tabsection" id="tabsection">
+    <div class="containertab">
+        <h1>Payment Details</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Details</th>
+                    <th>Information</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Account Number</td>
+                    <td>1481267367</td>
+                </tr>
+                <tr>
+                    <td>Account Holder Name</td>
+                    <td>PSG Center for Nonformal and Continuing Education</td>
+                </tr>
+                <tr>
+                    <td>Bank name</td>
+                    <td>Central Bank of India</td>
+                </tr>
+                <tr>
+                    <td>Branch Name</td>
+                    <td>Peelamedu</td>
+                </tr>
+		<tr>
+                    <td>IFSC Code</td>
+                    <td>CBIN0280913</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="fotr" id="fotr">
+  <div class="ftr">
+
+    <div class="fheader">
+      <div>
+        <p style="margin:0; font-weight:600; letter-spacing:0.5px;">PSG COLLEGE OF TECHNOLOGY</p>
+      </div>
+    </div>
+
+    <div class="fcontent">
+      
+      <!-- MAP LEFT -->
+      <iframe
+        class="f-map"
+        width="420"
+        height="300"
+        frameborder="0"
+        style="border:0"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.499073073204!2d77.000634315334!3d11.024254392145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8582f1435fa59%3A0x137d95bfd8909293!2sPSG%20College%20Of%20Technology!5e0!3m2!1sen!2sin!4v1633071234567!5m2!1sen!2sin"
+        allowfullscreen="">
+      </iframe>
+
+      <!-- CONTACT RIGHT -->
+      <div class="contact-info">
+        <h2>Contact Us</h2>
+
+        <ul>
+          <li><strong>Address:</strong><br>
+            PSG College of Technology,<br>
+            Avinashi Road, Peelamedu,<br>
+            Coimbatore – 641004<br>
+            Tamil Nadu, India
+          </li>
+
+          <li><strong>Phone:</strong> +91 98430 43034</li>
+
+          <li><strong>Email:</strong> h2resa@psgtech.ac.in</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer">
+      © 2026 PSG College of Technology.
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
